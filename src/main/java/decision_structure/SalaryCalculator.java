@@ -15,7 +15,7 @@ public class SalaryCalculator {
         if(sales > quota) {
             salary = salary + bonus;
         }
-
+        scanner.close();
         System.out.println("Salary: " + salary);
     }
 }
